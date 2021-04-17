@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="/js/scripts.js"></script>
+    <title>Pagina X</title>
+</head>
+<body >
+    <h1 id="title">Pagina X</h1>
+    <div id="container-nav">
+        <nav id="nav">
+            <ul>
+                <li><a class="enlace" href="index.html">INICIO</a></li>
+                <li><a class="enlace" href="visionymision.html">VISION Y MISION</a></li>
+                <li><a class="enlace" href="nosotros.html">NOSOTROS</a></li>
+                <li><a class="enlace" href="contactenos.html">CONTACTENOS</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h2 id="title-contactenos">CONTACTENOS</h2>
+
+    <div id="container-form">
+        <form id="formulario">
+            <label for="fname">Nombre</label><br>
+            <input type="text" id="fname" name="nombre" required><br>
+            <label for="lname">Apellido</label><br>
+            <input type="text" id="lname" name="apellido" required><br>
+            <label for="correo">Correo</label><br>
+            <input type="text" id="correo" name="nombre" required><br>
+            <label for="consulta">Consulta</label><br>
+            <textarea name="duda" id="dudaid" cols="90" rows="5" required></textarea><br>
+            <input onclick="guardar()" id="btn" type="submit" value="Submit">
+            <input type="reset" value="Vaciar">
+          </form>
+    </div>
+    <footer>&copy; Copyright 2021 Gabriel Trujillo</footer>
+</body>
+</html>
